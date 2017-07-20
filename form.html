@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Forms</title>
+	<link rel="stylesheet" type="text/css" href="theme.css">
+	<style type="text/css">
+		body {
+			background-color: #ffff88;
+		}
+	</style>
+</head>
+<body>
+<h3 id="hello">Hello World</h3>
+<h3 style="" id="data">User Data</h3>
+	<form action="" method="POST">
+		<div>
+			<label for="username">Username: </label>
+			<input class="inputs" type="text" name="username" value="" placeholder="Enter your name here">
+		</div>
+		<div>
+			<label class="inputs" for="age">Age: </label>
+			<input type="number" name="age" value="20" min="1" max="120" step="1">
+		</div>
+		<div>
+			<label for="registrationdate"></label>
+			<input type="date" name="registrationdate">
+		</div>
+		<div><input type="submit" value="Send"></div>
+	</form>
+</body>
+</html>
